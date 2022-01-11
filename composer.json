@@ -1,0 +1,23 @@
+{
+    "name": "mohammadsultan/pure-php-rest-api",
+    "authors": [
+        {
+            "name": "Mohammee",
+            "email": "mohammeed204@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        },
+        "files": ["helper.php"]
+    },
+    "autoload-dev": {
+        "Test\\" : "test/"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.6.2",
+        "phpmd/phpmd": "2.11.1",
+        "phpunit/phpunit": "9.5.10"
+    }
+}
